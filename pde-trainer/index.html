@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pde problem trainer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="trainer-container">
+        <h1>partial differential equations trainer</h1>
+        <div class="button-group">
+            <button id="new-problem-btn">generate new problem</button>
+            <button id="show-answer-btn">show answer</button>
+        </div>
+        
+        <div class="problem-box">
+            <h3>problem</h3>
+            <div id="problem-display">
+                <p>click "generate new problem" to begin.</p>
+            </div>
+        </div>
+        
+        <div class="answer-box">
+            <h3>solution:</h3>
+            <div id="answer-display">
+                </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
